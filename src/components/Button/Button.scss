@@ -1,0 +1,12 @@
+.btn {
+  width: 220px;
+  height: 56px;
+  color: #fff;
+  background-color: var(--blue4);
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+}
