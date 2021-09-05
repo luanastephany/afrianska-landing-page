@@ -1,15 +1,22 @@
+import { BrowserRouter, Switch, Route } from 'react-router-dom'
+import Home from './screens/Home'
+import Blog from './screens/Blog'
+import Contact from './screens/Contact'
 import './App.scss';
-import Header from './components/Header'
-import Hero from './sections/Hero/Hero';
+
 
 function App() {
   return (
-    <main>
-      <Header />
-      <Hero />
+    <BrowserRouter>
 
+      <Switch>
+        <Route path="/" exact component={Home} />
+        <Route path="/blog" component={Blog} />
+        <Route path="/contact" component={Contact} />
+      </Switch>
 
-    </main>
+    </BrowserRouter>
+
   );
 }
 
