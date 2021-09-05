@@ -9,9 +9,9 @@ const Header = () => {
       </div>
 
       <div className="breadcrumb">
-        <p className="home">Home</p>
-        <p className="blog">Blog</p>
-        <p className="contact">Contact</p>
+        <a className="link" href="/">Home</a>
+        <a className="link" href="/blog">Blog</a>
+        <a className="link" href="/contact">Contact</a>
       </div>
     </header>
   )

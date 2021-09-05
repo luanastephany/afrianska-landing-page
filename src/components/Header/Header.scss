@@ -23,23 +23,7 @@ header {
     font-size: 18px;
     flex: 1;
 
-    .home {
-      cursor: pointer;
-
-      &:hover {
-        color: var(--blue4);
-      }
-    }
-
-    .blog {
-      cursor: pointer;
-
-      &:hover {
-        color: var(--blue4);
-      }
-    }
-
-    .contact {
+    .link {
       cursor: pointer;
 
       &:hover {
@@ -47,4 +31,6 @@ header {
       }
     }
   }
+
+  
 }
