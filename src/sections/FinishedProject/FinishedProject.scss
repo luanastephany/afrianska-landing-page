@@ -1,0 +1,49 @@
+.finished-project {
+  display: flex;
+  flex-direction: column;
+  width: var(--w-desktop);
+  margin-bottom: 150px;
+
+  .texts-project {
+    display: flex;
+    flex-direction: row;
+    font-family: "Urbanist", sans-serif;
+    color: var(--blue1);
+    margin-bottom: 100px;
+
+    .title {
+      font-size: 36px;
+      margin-right: 150px;
+    }
+
+    .description {
+      width: 540px;
+      opacity: 60%;
+      line-height: 20px;
+    }
+  }
+
+  .pictures {
+    display: flex;
+    flex-direction: column;
+
+    .pic1 {
+      width: 940px;
+      height: 418px;
+      margin-bottom: 90px;
+      border-radius: 10px;
+    }
+
+    .app-pictures {
+      display: flex;
+      flex-direction: row;
+      gap: 90px;
+
+      .secondary-pic {
+        width: 420px;
+        height: 416px;
+        border-radius: 10px;
+      }
+    }
+  }
+}
