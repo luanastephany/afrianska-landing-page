@@ -1,8 +1,9 @@
 import React from 'react'
 import './WhatWeDo.scss'
+import InvisibleBtn from '../../components/InvisibleBtn';
 
 
-const Card = (image, title, subtitle) => {
+const Card = ({ image, title, subtitle }) => {
   return (
     <div className="card">
       <div className="pic">
@@ -10,24 +11,43 @@ const Card = (image, title, subtitle) => {
       </div>
 
       <div className="texts">
-        <span className="title">{title}</span>
-        <span className="subtitle">{subtitle}</span>
+        <p className="title">{title}</p>
+        <p className="subtitle">{subtitle}</p>
       </div>
+      <InvisibleBtn>Learn More</InvisibleBtn>
 
     </div>
   )
 }
 
-
-
 const WhatWeDo = () => {
   return (
     <div className="whatwedo">
-      <Card
-        image=""
-        title="Bring Technology To Your Comfortable Home"
-        subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-      />
+
+      <div className="column">
+        <h1 className="bigtitle">What we do to help our client grow in digital era</h1>
+
+        <Card
+          image="/img/toy1.svg"
+          title="Bring Technology To Your Comfortable Home"
+          subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        />
+      </div>
+
+      <div className="column">
+        <Card
+          image="/img/toy2.svg"
+          title="Make Your business To Be Better Famous In Internet"
+          subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        />
+
+        <Card
+          image="/img/toy3.svg"
+          title="Build Your Digital Product That Suitable For Your Need"
+          subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        />
+      </div>
+
 
 
 
