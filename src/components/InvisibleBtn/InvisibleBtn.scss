@@ -1,0 +1,17 @@
+.btn-invisible {
+  display: flex;
+  align-items: center;
+  height: 56px;
+  padding: 0 50px;
+  gap: 24px;
+  color: var(--blue4);
+  background-color: white;
+  border-radius: 10px;
+  font-weight: bold;
+
+  &:hover {
+    background-color: white;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    transform: scale(1.1);
+  }
+}
