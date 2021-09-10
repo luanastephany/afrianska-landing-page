@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from '../../components/Footer/Footer'
 import './Clients.scss'
 
 const Clients = () => {
@@ -37,6 +38,8 @@ const Clients = () => {
           <img src="/img/youtube.svg" alt="youtube" />
         </div>
       </div>
+
+      <Footer />
 
     </div>
   )
