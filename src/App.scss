@@ -1,9 +1,9 @@
 :root {
   --w-desktop: 940px;
-  --blue1: #1F3F68;
+  --blue1: #1f3f68;
   --blue2: #316099;
-  --blue3: #356EAD;
-  --blue4: #5A98D0; 
+  --blue3: #356ead;
+  --blue4: #5a98d0;
 }
 
 * {
@@ -13,20 +13,25 @@
   text-decoration: none;
 }
 
-ul, li {
+ul,
+li {
   list-style: none;
   padding: 0;
   margin: 0;
+}
+
+#root {
+  width: 100%;
 }
 
 main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100vw;
   max-width: 100vw;
+  overflow-x: hidden;
+  width: 100%;
 }
-
 
 button {
   border: none;
