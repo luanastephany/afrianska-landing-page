@@ -4,9 +4,9 @@
   align-items: center;
   background-color: var(--blue2);
   width: calc(100vw - 200px);
-  height: 1000px;
   border-top-right-radius: 200px;
   position: relative;
+  padding: 100px 0;
 
   &::before {
     content: " ";
@@ -22,13 +22,11 @@
 
   section {
     width: var(--w-desktop);
-    height: 400px;
   }
 
   .first-section {
     display: flex;
     flex-direction: row;
-    margin-top: 100px;
 
     .footer-texts {
       display: flex;
@@ -48,6 +46,56 @@
         opacity: 60%;
         width: 460px;
         line-height: 26px;
+      }
+    }
+  }
+
+  .divider {
+    height: 1px;
+    width: 1073px;
+    background-color: #eeeff2;
+    margin: 90px 0;
+  }
+
+  .second-section {
+    display: flex;
+    flex-direction: row;
+    font-family: "Urbanist", sans-serif;
+    color: #fff;
+
+    .footer-contact {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+      margin-right: 100px;
+
+      .footer-logo {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 16px;
+      }
+
+      .contact {
+        opacity: 80%;
+        width: 300px;
+      }
+    }
+
+    .board {
+      display: flex;
+      flex-direction: column;
+      margin-right: 100px;
+
+      .title {
+        font-size: 20px;
+        margin-bottom: 32px;
+      }
+
+      .list {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
       }
     }
   }
