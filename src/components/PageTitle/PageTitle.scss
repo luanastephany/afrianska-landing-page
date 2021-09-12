@@ -1,0 +1,22 @@
+.page-title {
+  display: flex;
+  flex-direction: column;
+  background-image: url("./blog-bg.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 250px;
+  color: #fff;
+  font-family: "Urbanist", sans-serif;
+
+  .page-subtitle {
+    width: 700px;
+    text-align: center;
+    font-size: 18px;
+    opacity: 60%;
+    line-height: 30px;
+    margin-top: 24px;
+  }
+}
