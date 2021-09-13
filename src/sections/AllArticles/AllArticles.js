@@ -31,7 +31,7 @@ const AllArticles = () => {
       <h1>All Article</h1>
 
       <Posts
-        image="/img/"
+        image="/img/post1.png"
         title="Massa eu in laoreet enim augue vulputate nunc."
         description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lectus quisque magna in nisl nibh bibendum ipsum, elit duis. Donec."
         name="Samatha Leuthex"
@@ -39,7 +39,7 @@ const AllArticles = () => {
       />
 
       <Posts
-        image="/img/"
+        image="/img/post2.png"
         title="Feugiat a euismod arcu feugiat posuere morbi."
         description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lectus quisque magna in nisl nibh bibendum ipsum, elit duis. Donec."
         name="Samatha Leuthex"
@@ -47,7 +47,7 @@ const AllArticles = () => {
       />
 
       <Posts
-        image="/img/"
+        image="/img/post3.png"
         title="Sociis purus pellentesque faucibus vitae et felis."
         description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lectus quisque magna in nisl nibh bibendum ipsum, elit duis. Donec."
         name="Samatha Leuthex"
@@ -55,7 +55,7 @@ const AllArticles = () => {
       />
 
       <Posts
-        image="/img/"
+        image="/img/post4.png"
         title="Cursus feugiat mi pellentesque mauris sed eu."
         description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lectus quisque magna in nisl nibh bibendum ipsum, elit duis. Donec."
         name="Samatha Leuthex"
@@ -63,7 +63,7 @@ const AllArticles = () => {
       />
 
       <Posts
-        image="/img/"
+        image="/img/post5.png"
         title="A morbi arcu curabitur etiam fringilla augue."
         description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lectus quisque magna in nisl nibh bibendum ipsum, elit duis. Donec."
         name="Samatha Leuthex"
