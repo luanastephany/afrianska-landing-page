@@ -1,6 +1,7 @@
 import React from 'react'
 import './WhatWeDo.scss'
 import InvisibleBtn from '../../components/InvisibleBtn';
+import { FaArrowRight } from 'react-icons/fa'
 
 
 const Card = ({ image, title, subtitle }) => {
@@ -14,7 +15,10 @@ const Card = ({ image, title, subtitle }) => {
         <p className="title">{title}</p>
         <p className="subtitle">{subtitle}</p>
       </div>
-      <InvisibleBtn>Learn More</InvisibleBtn>
+      <InvisibleBtn>
+        <span>Learn More</span>
+        <FaArrowRight />
+      </InvisibleBtn>
 
     </div>
   )
