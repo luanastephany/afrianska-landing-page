@@ -1,0 +1,82 @@
+.all-articles {
+  display: flex;
+  flex-direction: column;
+  width: var(--w-desktop);
+  gap: 32px;
+  padding-bottom: 50px;
+
+  h1 {
+    font-family: "Urbanist", sans-serif;
+    color: var(--blue3);
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+
+  .bottom-control {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .posts {
+    display: flex;
+    flex-direction: row;
+    width: 860px;
+
+    img {
+      margin-right: 20px;
+      width: 300px;
+      height: 200px;
+    }
+
+    .texts {
+      display: flex;
+      flex-direction: column;
+
+      .title {
+        font-family: "Kaisei HarunoUmi", sans-serif;
+        color: var(--blue1);
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 16px;
+        width: 540px;
+      }
+
+      .description {
+        font-family: "Urbanist", sans-serif;
+        line-height: 26px;
+        opacity: 60%;
+        width: 540px;
+        margin-bottom: 14px;
+      }
+
+      .footer-article {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        gap: 24px;
+
+        svg {
+          cursor: pointer;
+        }
+
+        .author-date {
+          display: flex;
+          flex-direction: column;
+          font-size: 14px;
+          gap: 8px;
+          margin-right: 70px;
+
+          .author {
+            color: var(--blue1);
+          }
+
+          .date {
+            opacity: 60%;
+          }
+        }
+      }
+    }
+  }
+}

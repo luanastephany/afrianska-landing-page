@@ -1,23 +1,27 @@
 import React from 'react'
 import './AllArticles.scss'
+import InvisibleBtn from '../../components/InvisibleBtn'
 import { IoShareSocial } from 'react-icons/io5'
 import { BsBookmarksFill } from 'react-icons/bs'
+import { FaArrowRight, FaArrowLeft } from 'react-icons/fa'
 
 const Posts = ({ image, title, description, name, date }) => {
   return (
     <div className="posts">
-
       <img src={image} alt="" />
-      <h1>{title}</h1>
-      <p>{description}</p>
 
-      <div className="footer-article">
-        <div className="author-date">
-          <p className="author">{name}</p>
-          <p className="date">{date}</p>
+      <div className="texts">
+        <p className="title">{title}</p>
+        <p className="description">{description}</p>
+
+        <div className="footer-article">
+          <div className="author-date">
+            <p className="author">{name}</p>
+            <p className="date">{date}</p>
+          </div>
+          <BsBookmarksFill color="#356EAD" size={20} />
+          <IoShareSocial color="#356EAD" size={20} />
         </div>
-        <BsBookmarksFill color="#356EAD" size={24} />
-        <IoShareSocial color="#356EAD" size={24} />
       </div>
 
     </div>
@@ -69,6 +73,18 @@ const AllArticles = () => {
         name="Samatha Leuthex"
         date="May 5, 3 min read"
       />
+      <div className="bottom-control">
+        <InvisibleBtn>
+          <FaArrowLeft />
+          <span>New Post</span>
+        </InvisibleBtn>
+
+        <InvisibleBtn>
+          <span>Old Post</span>
+          <FaArrowRight />
+        </InvisibleBtn>
+      </div>
+
 
 
     </div>
