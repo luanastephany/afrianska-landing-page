@@ -11,6 +11,43 @@
 
     .info {
       flex: 1;
+
+      .contact-img {
+        width: 300px;
+        height: 180px;
+        margin-bottom: 60px;
+      }
+
+      .title {
+        text-transform: uppercase;
+        color: var(--blue1);
+        font-size: 20px;
+        font-family: "Urbanist", sans-serif;
+        line-height: 30px;
+        margin-bottom: 24px;
+        margin-top: 10px;
+      }
+
+      .description {
+        color: var(--blue1);
+        font-family: "Urbanist", sans-serif;
+        width: 300px;
+        opacity: 60%;
+        margin-bottom: 36px;
+        line-height: 26px;
+      }
+
+      .contact {
+        display: flex;
+        flex-direction: row;
+        gap: 16px;
+
+        .contact-info {
+          color: var(--blue1);
+          opacity: 60%;
+          margin-bottom: 16px;
+        }
+      }
     }
 
     .form {
@@ -22,5 +59,11 @@
       border-radius: 10px;
       box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
     }
+  }
+
+  .map {
+    margin-top: 100px;
+    width: 940px;
+    height: 480px;
   }
 }
