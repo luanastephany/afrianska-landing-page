@@ -5,7 +5,6 @@ import Hero from '../../sections/Hero/Hero'
 import WhatWeDo from '../../sections/WhatWeDo'
 import FinishedProject from '../../sections/FinishedProject'
 import Clients from '../../sections/Clients'
-import Footer from '../../components/Footer/Footer'
 
 const Home = () => {
   return (
