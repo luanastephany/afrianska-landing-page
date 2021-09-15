@@ -22,7 +22,7 @@
   }
 
   .label {
-    opacity: 80%;
+    opacity: 0.8;
   }
 
   .input-box {
@@ -47,7 +47,7 @@
 
       &::placeholder {
         color: var(--blue1);
-        opacity: 20%;
+        opacity: 0.2;
       }
     }
   }
