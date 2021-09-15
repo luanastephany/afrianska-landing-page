@@ -1,0 +1,60 @@
+.label-input {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 8px;
+  font-family: "Urbanist", sans-serif;
+  line-height: 30px;
+  color: var(--blue1);
+  font-size: 16px;
+
+  &.error {
+    color: var(--red);
+
+    .input-box {
+      border-color: rgba(177, 16, 16, 0.3);
+
+      input,
+      textarea {
+        color: var(--red);
+      }
+    }
+  }
+
+  .label {
+    opacity: 80%;
+  }
+
+  .input-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px 40px;
+    width: 100%;
+    min-height: 72px;
+    border-radius: 10px;
+    border: 1px solid rgba(16, 112, 177, 0.3);
+
+    input,
+    textarea {
+      font-size: 16px;
+      color: var(--blue1);
+      display: flex;
+      flex: 1;
+      height: 100%;
+      outline: none;
+      border: none;
+
+      &::placeholder {
+        color: var(--blue1);
+        opacity: 20%;
+      }
+    }
+  }
+
+  .error-box {
+    display: flex;
+    justify-content: flex-end;
+    color: var(--red);
+  }
+}
