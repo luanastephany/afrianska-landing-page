@@ -23,7 +23,9 @@
   - [React Icons](https://react-icons.github.io/react-icons/) - icons do Font Awesome <br />
   - [Formik](https://formik.org/docs/overview) - lida com dados do formulário <br />
   - [Yup](https://www.npmjs.com/package/yup) - validação de dados <br />
-  - [Material UI]() - usar Dialog para abrir confirmação de envio de formulário <br />
+  - [Material UI](https://mui.com/pt/getting-started/usage/) - usar Dialog para abrir confirmação de envio de formulário <br />
+  - [Google Map React](https://github.com/google-map-react/google-map-react) - mapa <br />
+  - [React Router](https://reactrouter.com/web/guides/quick-start) - criação de rotas
   
     
         
