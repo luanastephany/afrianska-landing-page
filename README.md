@@ -12,6 +12,7 @@
 - Projeto realizado usando [Create React App](https://github.com/facebook/create-react-app). 
 - Você pode encontrar o design no [Figma](https://www.figma.com/file/zEOMqqBSHLncjhN14KoT9q/afrianska-landingpage-(Copy)?node-id=0%3A1) junto de todas as informações necessárias para o desenvolvimento. 
 - É um projeto de uma landing page com três páginas diferentes, então foi utilizado o react routes para desenvolvê-lo. 
+- Na última págin há um formulário validado, feito utilizando Formik e Yup. Ao preenchê-lo corretamente, haverá uma mensagem em um modal confirmando o seu envio. 
 
 ## 🚀 Tecnologias utilizadas
 - HTML
