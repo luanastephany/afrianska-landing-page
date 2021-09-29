@@ -1,8 +1,5 @@
 # Afrianska Landing Page
 
-
-
-
 <h3 align="center">
     <a href="https://peaceful-payne-4fbdc1.netlify.app/">Acessar projeto</a>
 <h3 >
